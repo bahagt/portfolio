@@ -1,0 +1,12 @@
+{
+  "name": "html-template",
+  "version": "1.0.0",
+  "description": "A modern HTML template with live server support",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^4.4.0"
+  }
+}

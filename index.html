@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baha Daoud - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+      <div class="floating-particles"></div>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loader">
+        <div class="loader-circle"></div>
+        <div class="loader-text">Loading Portfolio...</div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-container">
+      <!-- Header with animated title -->
+      <header class="portfolio-header">
+        <h1 class="animated-title">
+          <span class="title-part">Baha</span>
+          <span class="title-part">Daoud</span>
+        </h1>
+        <p class="subtitle">Software Developer & DevOps Engineer</p>
+      </header>
+
+      <!-- Enhanced Navigation Circle -->
+      <nav class="nav-container">
+        <div class="nav-circle">
+          <div class="center-logo" id="centerLogo">
+            <i class="fas fa-home"></i>
+            <div class="logo-ripple"></div>
+          </div>
+
+          <div
+            class="nav-item active"
+            data-content="about"
+            data-icon="fas fa-user"
+          >
+            <div class="nav-button">
+              <i class="fas fa-user"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">About</div>
+          </div>
+
+          <div class="nav-item" data-content="skills" data-icon="fas fa-code">
+            <div class="nav-button">
+              <i class="fas fa-code"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">Skills</div>
+          </div>
+
+          <div
+            class="nav-item"
+            data-content="experience"
+            data-icon="fas fa-briefcase"
+          >
+            <div class="nav-button">
+              <i class="fas fa-briefcase"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">Experience</div>
+          </div>
+
+          <div
+            class="nav-item"
+            data-content="projects"
+            data-icon="fas fa-folder-open"
+          >
+            <div class="nav-button">
+              <i class="fas fa-folder-open"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">Projects</div>
+          </div>
+
+          <div
+            class="nav-item"
+            data-content="education"
+            data-icon="fas fa-graduation-cap"
+          >
+            <div class="nav-button">
+              <i class="fas fa-graduation-cap"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">Education</div>
+          </div>
+
+          <div
+            class="nav-item"
+            data-content="languages"
+            data-icon="fas fa-globe"
+          >
+            <div class="nav-button">
+              <i class="fas fa-globe"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">Languages</div>
+          </div>
+
+          <div
+            class="nav-item"
+            data-content="contact"
+            data-icon="fas fa-envelope"
+          >
+            <div class="nav-button">
+              <i class="fas fa-envelope"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">Contact</div>
+          </div>
+
+          <div class="nav-item" data-content="devops" data-icon="fas fa-server">
+            <div class="nav-button">
+              <i class="fas fa-server"></i>
+              <div class="button-ripple"></div>
+            </div>
+            <div class="nav-label">DevOps</div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Enhanced Content Area -->
+      <section class="content-area">
+        <div class="content-border-animation"></div>
+
+        <div class="content-inner">
+          <!-- About Section -->
+          <article class="content-section active" id="about">
+            <div class="section-header">
+              <h2>About Baha Daoud</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="content-text">
+              <p class="intro-text">
+                Software Developer and aspiring DevOps Engineer with strong
+                programming foundation and hands-on experience in modern
+                development practices. Proficient in C#/.NET, Python, and Java
+                with demonstrated ability to build complex applications
+                including real-time audio processing systems.
+              </p>
+              <p>
+                Currently expanding expertise in cloud infrastructure,
+                containerization, and CI/CD pipelines through practical projects
+                and continuous learning.
+              </p>
+            </div>
+            <div class="floating-icons">
+              <i class="fab fa-python"></i>
+              <i class="fab fa-java"></i>
+              <i class="fab fa-docker"></i>
+              <i class="fab fa-aws"></i>
+            </div>
+          </article>
+
+          <!-- Skills Section -->
+          <article class="content-section" id="skills">
+            <div class="section-header">
+              <h2>Core Technical Skills</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="skills-grid">
+              <div class="skill-category">
+                <h3>Software Development</h3>
+                <div class="skill-items">
+                  <div class="skill-item" data-level="90">
+                    <span>C#/.NET Framework</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-level="85">
+                    <span>Python</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-level="80">
+                    <span>Java</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-level="75">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h3>DevOps & Cloud</h3>
+                <div class="skill-items">
+                  <div class="skill-item" data-level="80">
+                    <span>Docker</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-level="75">
+                    <span>AWS</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-level="70">
+                    <span>Kubernetes</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                  <div class="skill-item" data-level="85">
+                    <span>Linux</span>
+                    <div class="skill-bar">
+                      <div class="skill-progress"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Experience Section -->
+          <article class="content-section" id="experience">
+            <div class="section-header">
+              <h2>Professional Journey</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>DevOps Learning Journey</h3>
+                  <span class="timeline-date">2023 - Present</span>
+                  <p>
+                    Expanding expertise in cloud infrastructure,
+                    containerization, and CI/CD pipelines through hands-on
+                    projects and continuous learning.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h3>Software Development Focus</h3>
+                  <span class="timeline-date">2017 - 2023</span>
+                  <p>
+                    Built strong foundation in programming with C#/.NET, Python,
+                    and Java. Developed complex applications including real-time
+                    audio processing systems.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Projects Section -->
+          <article class="content-section" id="projects">
+            <div class="section-header">
+              <h2>Featured Projects</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="projects-grid">
+              <div class="project-card">
+                <div class="project-icon">
+                  <i class="fas fa-music"></i>
+                </div>
+                <h3>Virtual DJ Audio Mixer</h3>
+                <p>
+                  Real-time audio processing system with crossfading and 8-band
+                  equalizer
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">C#</span>
+                  <span class="tech-tag">.NET</span>
+                  <span class="tech-tag">NAudio</span>
+                </div>
+                <div class="project-grade">Grade: 85/100</div>
+              </div>
+
+              <div class="project-card">
+                <div class="project-icon">
+                  <i class="fas fa-cloud"></i>
+                </div>
+                <h3>Domain Monitoring API</h3>
+                <p>
+                  RESTful API with PostgreSQL integration deployed on AWS EC2
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Flask</span>
+                  <span class="tech-tag">Docker</span>
+                  <span class="tech-tag">AWS</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Education Section -->
+          <article class="content-section" id="education">
+            <div class="section-header">
+              <h2>Education</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="education-items">
+              <div class="education-item">
+                <div class="education-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="education-content">
+                  <h3>Certificate in DevOps Practices</h3>
+                  <p class="education-school">
+                    iNT College - Institute of Innovation & Technology
+                  </p>
+                  <p class="education-date">Sep 2024 - Jun 2025</p>
+                  <p>
+                    Advanced DevOps implementation combining multiple
+                    technologies and best practices
+                  </p>
+                </div>
+              </div>
+
+              <div class="education-item">
+                <div class="education-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="education-content">
+                  <h3>Practical Engineer in Computer Programming</h3>
+                  <p class="education-school">
+                    Technological College of Beer-Sheva
+                  </p>
+                  <p class="education-date">2017 - 2019</p>
+                  <p>
+                    Comprehensive programming curriculum including OOP,
+                    databases, networking, and system administration
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Languages Section -->
+          <article class="content-section" id="languages">
+            <div class="section-header">
+              <h2>Languages</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="languages-grid">
+              <div class="language-item">
+                <div class="language-flag">🇸🇦</div>
+                <h3>Arabic</h3>
+                <p>Native</p>
+              </div>
+              <div class="language-item">
+                <div class="language-flag">🇷🇺</div>
+                <h3>Russian</h3>
+                <p>Native</p>
+              </div>
+              <div class="language-item">
+                <div class="language-flag">🇮🇱</div>
+                <h3>Hebrew</h3>
+                <p>Fluent</p>
+              </div>
+              <div class="language-item">
+                <div class="language-flag">🇺🇸</div>
+                <h3>English</h3>
+                <p>Fluent</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Contact Section -->
+          <article class="content-section" id="contact">
+            <div class="section-header">
+              <h2>Get In Touch</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="contact-grid">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <h3>Phone</h3>
+                <p>+972-52-528-6531</p>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email</h3>
+                <p>bahagt333@gmail.com</p>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <h3>LinkedIn</h3>
+                <p>https://www.linkedin.com/in/baha-daoud/</p>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <h3>GitHub</h3>
+                <p>https://github.com/bahagt</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- DevOps Section -->
+          <article class="content-section" id="devops">
+            <div class="section-header">
+              <h2>DevOps & Cloud Technologies</h2>
+              <div class="header-line"></div>
+            </div>
+            <div class="devops-categories">
+              <div class="devops-category">
+                <h3><i class="fab fa-docker"></i> Containerization</h3>
+                <div class="tech-list">
+                  <span class="tech-badge">Docker</span>
+                  <span class="tech-badge">Kubernetes</span>
+                </div>
+              </div>
+
+              <div class="devops-category">
+                <h3><i class="fas fa-infinity"></i> CI/CD</h3>
+                <div class="tech-list">
+                  <span class="tech-badge">Jenkins</span>
+                  <span class="tech-badge">GitHub Actions</span>
+                </div>
+              </div>
+
+              <div class="devops-category">
+                <h3><i class="fab fa-aws"></i> Cloud Platforms</h3>
+                <div class="tech-list">
+                  <span class="tech-badge">AWS EC2</span>
+                  <span class="tech-badge">CloudWatch</span>
+                </div>
+              </div>
+
+              <div class="devops-category">
+                <h3><i class="fas fa-code-branch"></i> Infrastructure</h3>
+                <div class="tech-list">
+                  <span class="tech-badge">Terraform</span>
+                  <span class="tech-badge">Ansible</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
